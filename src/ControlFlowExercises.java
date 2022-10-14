@@ -20,18 +20,21 @@ public class ControlFlowExercises {
 //            i = i * i;
 //            System.out.println(i);
 //        } while (i <= 50000);
-        for(int i = 0; i <= 100; i++){
-            if(i % 3 ==0 && i % 5 == 0){
-                System.out.println("FizzBuzz!");
-            } else if(i % 3 == 0){
-                System.out.println("Fizz");
-            } else if(i % 5 == 0){
-                System.out.println("Buzz");
-            } else {
-                System.out.println(i);
-            }
+        //FIZZ BUZZ
+//        for(int i = 0; i <= 100; i++){
+//            if(i % 3 ==0 && i % 5 == 0){
+//                System.out.println("FizzBuzz!");
+//            } else if(i % 3 == 0){
+//                System.out.println("Fizz");
+//            } else if(i % 5 == 0){
+//                System.out.println("Buzz");
+//            } else {
+//                System.out.println(i);
+//            }
+//
+//        }
+        //Squared and Cubed Table!
 
-        }
 
 
 
