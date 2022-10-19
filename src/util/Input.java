@@ -22,17 +22,19 @@ public class Input {
 
     public boolean yesNo(){
         System.out.println("Yes/No?");
-        return scanner.nextLine().equalsIgnoreCase("y") || scanner.nextLine().equalsIgnoreCase("yes");
+        String userInput = scanner.nextLine();
+        return userInput.equalsIgnoreCase("y") || userInput.equalsIgnoreCase("yes");
     }
-    public int getInt(int number1, int number2){
-        System.out.printf("Input a number between %s and %s", number1, number2);
+    public int getInt(int min, int max){
+        System.out.printf("Input a number between %s and %s", min, max);
         int userInput = scanner.nextInt();
-        if (userInput >= number1 && userInput <= number2){
+        if (userInput >= min && userInput <= max){
             return userInput;
         } else {
-            return getInt(number1, number2);
+            return getInt(min, max);
         }
     }
+
 
 
 

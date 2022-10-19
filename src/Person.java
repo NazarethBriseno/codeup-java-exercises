@@ -22,10 +22,27 @@ public class Person {
 //        System.out.println(person2.getName());
 
     }
-     public Person(String name) {
+     public Person(String name, int age, String job) {
         this.setName(name);
+        this.setAge(age);
+        this.setJob(job);
+
     }
     private String name;
+    private int age;
+    private String job;
+    public void setAge(int age){
+        this.age = age;
+    }
+    public void setJob(String job){
+        this.job = job;
+    }
+    public String getJob(){
+        return this.job;
+    }
+    public int getAge(){
+        return this.age;
+    }
 
     public String getName(){
         return this.name;
