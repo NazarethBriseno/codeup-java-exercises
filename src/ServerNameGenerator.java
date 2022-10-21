@@ -3,7 +3,7 @@ public class ServerNameGenerator {
     static String[] nouns = {"mom", "girl", "boy", "keyboard", "door", "house", "basketball", "cup", "fridge", "car"};
 
     public static String randomString(String[] array){
-        long holder = Math.round(Math.random() * array.length);
+        long holder = Math.round(Math.random() * array.length -1);
         return array[(int) holder];
     }
 
