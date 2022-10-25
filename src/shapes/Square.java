@@ -23,7 +23,7 @@ public class Square extends Quadrilateral {
         this.length = width;
     }
 
-    public Square(double )
+
 
 //    private double side;
 //    public double getPerimeter(){
